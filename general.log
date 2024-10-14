@@ -89,3 +89,5 @@ D:\Study_M\ultimate-django-course\part-iii\current\storefront3\storefront\settin
 2024-10-14 10:58:47,697 (WARNING) - django.request - Method Not Allowed: /store/carts/
 2024-10-14 10:58:49,594 (WARNING) - django.request - Unauthorized: /store/customers/
 2024-10-14 10:58:50,743 (WARNING) - django.request - Unauthorized: /store/orders/
+2024-10-14 11:01:23,365 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2024-10-14 11:01:53,857 (WARNING) - django.request - Method Not Allowed: /store/carts/
