@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework',
     'djoser',
-    'silk',
+    # 'silk',
     'playground',
     'debug_toolbar',
     'store',

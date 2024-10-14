@@ -97,3 +97,4 @@ D:\Study_M\ultimate-django-course\part-iii\current\storefront3\storefront\settin
 2024-10-14 11:23:03,862 (WARNING) - waitress.queue - Task queue depth is 1
 2024-10-14 11:23:03,864 (WARNING) - waitress.queue - Task queue depth is 2
 2024-10-14 11:23:04,009 (WARNING) - django.request - Not Found: /favicon.ico
+2024-10-14 12:09:53,777 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
