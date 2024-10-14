@@ -91,3 +91,9 @@ D:\Study_M\ultimate-django-course\part-iii\current\storefront3\storefront\settin
 2024-10-14 10:58:50,743 (WARNING) - django.request - Unauthorized: /store/orders/
 2024-10-14 11:01:23,365 (WARNING) - django.request - Method Not Allowed: /store/carts/
 2024-10-14 11:01:53,857 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2024-10-14 11:21:51,121 (INFO) - waitress - Serving on http://[::]:8000
+2024-10-14 11:21:51,121 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2024-10-14 11:23:03,619 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-10-14 11:23:03,862 (WARNING) - waitress.queue - Task queue depth is 1
+2024-10-14 11:23:03,864 (WARNING) - waitress.queue - Task queue depth is 2
+2024-10-14 11:23:04,009 (WARNING) - django.request - Not Found: /favicon.ico

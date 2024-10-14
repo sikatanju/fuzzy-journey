@@ -45,7 +45,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -156,7 +155,7 @@ SIMPLE_JWT = {
 
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # * it's enabled by default.
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # * it's enabled by default.
 EMAIL_HOST = 'localhost'
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
@@ -170,7 +169,6 @@ ADMINS = [
 
 
 #* Celery settings
-CELERY_BROKER_URL = 'redis://localhost:6379/1'
 CELERY_BEAT_SCHEDULE = {
     'notify_customers': {
         'task': 'playground.tasks.notify_customer',
@@ -180,15 +178,7 @@ CELERY_BEAT_SCHEDULE = {
 }
 
 
-CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/2",
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
-        }
-    }
-}
+
 
 
 LOGGING = {
